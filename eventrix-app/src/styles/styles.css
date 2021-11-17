@@ -1,0 +1,107 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.logo {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.header {
+    text-align: center;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header img {
+    max-height: 70px;
+    max-width: 130px;
+}
+
+.simulation {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.todo-app {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.todo-footer {
+    width: 100%;
+    background: #efefef;
+    border-radius: 0 0 4px 4px;
+    border-top: 1px solid #c1c1c1;
+    padding: 10px;
+}
+
+
+.list-container {
+    display: flex;
+}
+
+.toolbar {
+    text-align: center;
+}
+
+.simulation button{
+    position: relative;
+    padding: 15px 15px 15px 35px;
+    border: 1px solid #23559c;
+    background: #266dba;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.simulation button:after{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    content: ' ';
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 10px solid #ffffff;
+}
+
+.simulation button:hover{
+    border: 1px solid #23559c;
+    background: #2562ab;
+    cursor: pointer;
+}
+
+.total-counter {
+    display: inline-block;
+    background: #dddddd;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    margin-left: 5px;
+    padding: 15px;
+    font-size: 13px;
+}
+
+.infobox {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: inline-block;
+    background: #dddddd;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    margin-left: 5px;
+    padding: 15px;
+    font-size: 13px;
+    text-align: left;
+}

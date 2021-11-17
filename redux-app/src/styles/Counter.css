@@ -1,0 +1,13 @@
+.messages-counter {
+    position: absolute;
+    bottom: 18px;
+    right: 15px;
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #333;
+    color: #fff;
+    font-size: 10px;
+}

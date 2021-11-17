@@ -1,0 +1,39 @@
+.itemsList {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item-list-item {
+    display: block;
+    background: #f3f3f3;
+    padding: 15px;
+    position: relative;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.item-name {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    width: 100%;
+    font-size: 13px;
+}
+
+.item-phone {
+    display: block;
+    text-align: left;
+    width: 100%;
+    font-weight: normal;
+    font-size: 11px;
+    color: #797979;
+    margin-left: 18px;
+}
+
+.empty-list {
+    padding: 10px;
+    color: #333;
+}
